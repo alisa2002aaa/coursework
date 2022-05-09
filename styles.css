@@ -1,0 +1,139 @@
+body{
+    background-position: 100%;
+    background-image: url("background.png");
+   text-decoration: none;
+
+}
+
+#screen{
+    font-family:'comic sans ms';
+    color: darkcyan;
+    font-size: 500%;
+    text-align: center;
+
+}
+a{
+  text-decoration: none;
+  color:darkcyan;
+  
+
+}
+
+
+
+div {
+    text-align: center;
+  }
+.txt{
+    text-decoration: none;
+    font-family: 'comic sans ms';
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: darkcyan;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(127, 255, 212, 0.111);
+
+}
+
+
+
+
+img{
+  height: 45vh;
+}
+
+.start-button{
+    
+    text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px darkcyan inset, 0 0 0 0 darkcyan;
+  font-family: 'comic sans ms';
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  transition: .15s ease-in-out;
+}
+.start-button:hover {
+    box-shadow: 0 0 10px 0 darkcyan inset, 0 0 10px 4px darkcyan;
+    color: darkcyan;
+  }
+
+
+
+
+
+#chart1{
+    height: max-content;
+    width: 50px;
+    background-image: url("chart1.PNG");
+    background-size: cover;
+}
+#frost{
+    
+    width: 33%;
+    background-image: url("frost.PNG");
+    background-size: cover;
+}
+#sun{
+    
+    width: 33%;
+    background-image: url("sun.PNG");
+    background-size: cover; 
+}
+#wind{
+    width: 33%;
+    background-image: url("wind.PNG");
+    background-size: cover;  
+}
+
+
+  #score { text-align: center; }
+
+  #game {
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+    
+    background-size: cover;
+  }
+  
+  #dino {
+    height: 75px;
+    width: 50px;
+    top: 225px;
+    position: relative;
+    background-image: url("chart.PNG");
+    background-size: cover;
+  }
+  
+  #rock {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 175px;
+    left: 550px;
+    background-image: url("blockf.PNG");
+    background-size: cover;
+    animation: rock 1.33s infinite;
+  }
+
+  @keyframes rock {
+    0%{left: 550px;}
+    100%{left: -50px;}
+  }
+  
+  .jump-animation {
+    animation: jump 0.5s;
+  }
+  
+  @keyframes jump {
+    0%{top: 225px;}
+    50%{top: 75px;}
+    75%{top: 75px;}
+    100%{top: 225px;}
+  }
