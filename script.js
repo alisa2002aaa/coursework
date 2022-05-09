@@ -9,7 +9,7 @@ function jump() {
     dino.classList.remove("jump-animation"), 500);
 }
 
-document.addEventListener('keypress', (event) => {
+document.addEventListener('keydown', (event) => {
   if (!dino.classList.contains('jump-animation')) {
     jump();
   }
