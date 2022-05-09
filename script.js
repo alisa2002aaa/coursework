@@ -28,19 +28,6 @@ setInterval(() => {
     rock.style.display = ''
   }
 
-  if (rockLeft < 50 && rockLeft > 0 && dinoTop > 150) {
-    alert("Ваш результат замалий: " + score.innerText +
-      "\n\nСпробувати ще");
-    location.reload();
-  }
-
-  if(score.innerText>=500){
-      window.location.href="fourth.html"
-  }
-}, 50);
-
-
-
 
 
 
